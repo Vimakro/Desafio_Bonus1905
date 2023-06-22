@@ -1,0 +1,51 @@
+.hidden {
+    display: none;
+}
+
+.first-container {
+    display: flex;
+    
+    justify-content: center;
+    text-align: center;
+    
+    
+    background-image: url("https://tecnovortex.com/wp-content/uploads/2019/04/wallpaper-engine.jpg");
+    font-family:'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+    background-color: #e3e3e4dc;
+    margin-top: 225px;
+}
+
+
+.end-game-container {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+
+.input {
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+
+.btn {
+    border-radius: 10px;
+    background-color:#fff;
+    padding:8px ;
+    cursor: pointer;
+    transition: 0.6;
+}
